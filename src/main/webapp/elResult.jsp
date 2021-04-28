@@ -6,7 +6,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body>elResult<br>
+	<%=session.getAttribute("name") %>
 	${name}<br><!-- session -->
 	${pageScope.name }<br><!-- 안나옴 -->
 	${requestScope.name }<br><!-- 안나옴 -->
